@@ -32,7 +32,7 @@ int delete(User*u1,User*u2){//删除会员
     *u1=*u2;
 }
 int main(){
-    User users[10];
+    User users[1000];
     int count=0;
     int i,q,w,x;
     int flag=1;
