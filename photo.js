@@ -133,10 +133,10 @@ function Trapezoid(n,xx,zz){
         break;
   }
 }
+//回字
 function hui(n,xx,zz){
   let x="";
-  let m;
-  parseInt(m=n/3)
+  let m=parseInt(n/3);
   switch(xx){
     case 1:
       console.log("没这个玩意")
