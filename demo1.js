@@ -53,7 +53,7 @@ server.on("connection", (client) => {
             var str3=str1.substr(str2);
             var bb=str3.split("&");
             if ((bb[0].split('=')[1]== 'admin')&&(bb[1].split("=")[1]=='123456')) {
-                console.log('1111');
+                //console.log('1111');
                 fs.writeFile(`${mm}.txt`,bb[0].split('=')[1],()=>{
                     client.write('HTTP/1.1 302 OK \n')
                     client.write(`Set-Cookie: SESSID=${mm}\n`)
